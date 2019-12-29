@@ -20,6 +20,7 @@
 	input:focus::-webkit-datetime-edit{ color: #000; }
 	.sec {
 		width: 100%;
+		color:#fff;
 	}
 	#sec-1 {
 		background-image: url('bg.png');
