@@ -32,10 +32,12 @@
 		display: flex;
 		position: relative;
 	}
+	.content{
+		padding-top:100px;
+	}
 	#sec-2 {
 		background-color: #1f1f1f;
 		background-size: 100%;
-		padding-top:100px;
 		background-position: 50% 50%;
 		height: 100vh;
 		display: flex;
