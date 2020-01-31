@@ -1,3 +1,3 @@
-# codevidn.github.io
-*Bujang*
-`ini website`
+# Halaman Rumah
+*Webnya Orang Bandung*
+`KamuProject`
