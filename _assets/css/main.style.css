@@ -1,0 +1,111 @@
+html,
+body{
+    background: #133f52;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration-line: none;
+}
+
+.dot{
+    width: 63px;
+}
+
+.com{
+    border: none;
+    width: 50%;
+    background: #133f52; 
+    color: aliceblue;
+}
+
+.s_com{
+    color: floralwhite;
+}
+.user{
+    color: #00c000;
+}
+.sil{
+    color: lightseagreen;
+}
+.bol{
+    color: #ffb700;
+}
+.red{
+    color: rgb(255, 4, 4);
+}
+
+.top-app{
+    background: #02121a;
+    display: inline-flex;
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+}
+
+.top-left{
+    width: 100%;
+    padding-top:4px;
+    color: rgb(102, 103, 104);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-right{
+    padding: 5px 5px 2px 5px;
+}
+
+.menu{
+    display: inline-flex;
+}
+
+.main{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.main-top{
+    display: inline-flex;
+}
+
+.main-left{
+    color: #ffb700;
+}
+
+.main-right{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+table{
+    margin-right: 30px;
+}
+
+table .r{
+    text-align: right;
+}
+ tr{
+    color: mintcream;
+}
+
+.main-left > h1{
+    font-size: 72px;
+    text-shadow: orangered 6px 6px 0px;
+}
+
+.main-bottom{
+    color: darkgray;
+}
+
+.text-anim{
+    
+}
+#anim{
+    /* display: none; */
+}

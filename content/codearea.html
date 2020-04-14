@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>code area</title>
+
+    <link rel="stylesheet" href="../_assets/css/laravel-err.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="tabs">
+                <nav class="tab-nav">
+                    <ul class="tab-bar">
+                        <li>
+                            <button class="tab tab-active">
+                        Stack trace
+                    </button>
+                        </li>
+                        <li>
+                            <button class="tab">
+                        Request
+                    </button>
+                        </li>
+                        <li>
+                            <button class="tab">
+                        App
+                    </button>
+                        </li>
+                        <li>
+                            <button class="tab">
+                        User
+                    </button>
+                        </li>
+                        <li>
+                            <button class="tab">
+                        Context
+                    </button>
+                        </li>
+                        <li>
+                            <button class="tab">
+                        Debug
+                    </button>
+                        </li>
+                    </ul> 
+                    <div class="tab-delimiter">
+
+                    </div>
+                    <div>
+                        <button class="tab">|||<svg class="icon ml-2"><use xlink:href="#share-icon"></use></svg></button> 
+                        <div class="dropdown z-10 right-0 top-full p-4 overflow-visible hidden" style="min-width: 18rem; margin-right: -1px;">
+                            <div class="flex items-center mb-4">
+                                <svg viewBox="0 0 682 1024" class="w-4 h-5 mr-2">
+                                    <polygon points="235.3,510.5 21.5,387 21.5,140.2 236.5,264.1 " style="fill: rgb(81, 219, 158);"></polygon> 
+                                    <polygon points="235.3,1004.8 21.5,881.4 21.5,634.5 234.8,757.9 " style="fill: rgb(121, 0, 245);"></polygon> 
+                                    <polygon points="448.9,386.9 21.5,140.2 235.3,16.7 663.2,263.4 " style="fill: rgb(148, 242, 200);"></polygon> 
+                                    <polygon points="234.8,757.9 21.5,634.5 235.3,511 449.1,634.5 " style="fill: rgb(164, 117, 244);"></polygon>
+                                </svg> 
+                                <h5 class="text-left font-semibold uppercase tracking-wider whitespace-no-wrap">Share on Flare</h5> 
+                                <a target="_blank" href="https://flareapp.io/docs/ignition-for-laravel/sharing-errors" title="Flare documentation" class="ml-auto underline">Docs</a>
+                            </div> 
+                            <div>
+                                <div class="grid cols-2 justify-start gapx-6 gapy-2">
+                                    <label for="stackTraceTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="stackTraceTab" type="checkbox" class="checkbox">Stack trace
+                                    </label>
+                                    <label for="requestTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="requestTab" type="checkbox" class="checkbox">Request
+                                    </label>
+                                    <label for="appTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="appTab" type="checkbox" class="checkbox">App
+                                    </label>
+                                    <label for="userTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="userTab" type="checkbox" class="checkbox">User
+                                    </label>
+                                    <label for="contextTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="contextTab" type="checkbox" class="checkbox">Context
+                                    </label><label for="debugTab" class="checkbox-label text-gray-200 hover:text-white">
+                                        <input id="debugTab" type="checkbox" class="checkbox">Debug
+                                    </label>
+                                </div> 
+                                <div class="mt-4">
+                                    <!----> 
+                                    <button class="button-secondary button-sm bg-tint-600 text-white">|||</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="tab-main">
+                    <div class="stack" selected-frame-number="11">
+                        <div class="stack-nav">
+                            <div class="stack-nav-actions">
+                                <div class="stack-nav-arrows">
+                                    <button title="Frame up (Key:K)" class="stack-nav-arrow">
+                                        <svg class="icon"><use xlink:href="#arrow-up-icon"></use>
+                                        </svg>
+                                    </button> 
+                                    <button title="Frame down (Key:J)" class="stack-nav-arrow">
+                                        <svg class="icon"><use xlink:href="#arrow-down-icon"></use>
+                                        </svg>
+                                    </button>
+                                </div> 
+                                <div class="px-4">
+                                    <button class="ml-auto link-dimmed">
+                                        Expand vendor frames
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="stack-frames">
+                                <ol class="stack-frames-scroll scrollbar">
+                                    <li>
+                                        <ul class="klik stack-frame-group stack-frame-group-vendor">
+                                            <li class="stack-frame  cursor-pointer stack-frame-selected">
+                                                <div class="stack-frame-number">
+                                                    <img style="width: 50px; height: 50px; border-radius: 100%; border: 1px solid #000;" src="" alt="">
+                                                </div> 
+                                                <div class="stack-frame-text">
+                                                    <header class="stack-frame-header ">
+                                                        <span class="inline-flex justify-start items-baseline stack-frame-path">
+                                                            <span class="ui-path text-gray-800">
+                                                                <span class="font-semibold">Username</span>
+                                                                <!---->
+                                                            </span>  
+                                                            <!---->
+                                                        </span>
+                                                    </header> 
+                                                    <span class="stack-frame-exception-class">
+                                                        <span class="ui-exception-class stack-frame-exception-class">
+                                                            Hello Username ...
+                                                            <!---->
+                                                        </span>
+                                                    </span>
+                                                </div> 
+                                                <div class="stack-frame-line">
+                                                    <span class="ui-line-number">
+                                                        :<span class="font-mono">12/04/20</span>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="stack-main">
+                            <div class="stack-main-content vh" >
+                                <div class="chat-area">
+                                    <div class="buble">
+                                        Helo username
+                                    </div>
+                                    <div class="buble">
+                                        Helo username
+                                    </div>
+                                </div>
+                                <div class="chat-right">
+                                        <div class="buble">
+                                            Helo username
+                                        </div>
+                                        <div class="buble">
+                                            Helo username
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="send-area stack-frame">
+                                <div class="stack-main-content">
+                                    Hello
+                                </div>
+                               <textarea style="" class="text-send klik" name="area" id="area" >
+                                   hello
+                               </textarea>
+                               <div class="stack-main-content">
+                                    Hello
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
